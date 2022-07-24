@@ -43,12 +43,9 @@
       { "tags" : "goodbye",
         "patterns" : ["goodbye", "thank you", "see ya", "Have a good day", "I am Leaving", "I'm leaving", "see you later", "bye", "quit", "q", "exit", "end"],
         "responses" : ["Goodbye!", "See you soon!!", "Talk to you later :)", "Have a nice day:) Bye!", "Enjoy you day :) Bye!", "Have a pleasent day :) Bye!"]
-      },
-
-      { "tags" : "bad",
-        "patterns" : ["Fuck off", "Fuck you", "Fuck", "Porn", "Sex", "mc", "bc", "randi", "bsdk", "maderchod", "betichod", "gm", "gand", "lauda", "Laude", "mu me lele", "chutiya", "chut", "boobs", "pussy", "tits", "tiddies", "F", "mf", "motherfucker", "bitch", "asshole", "abe saale", "dick", "kuthe", "jhatt"],
-        "responses" : ["Stop using bad words, be kind to others. \nListen GM \nThank you have a Good day :)"]
       }
+
+     
 
     ]
 }
