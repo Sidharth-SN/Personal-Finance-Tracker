@@ -1,0 +1,54 @@
+{
+  "intents" : [
+      { "tags" : "greetings",
+        "patterns" : ["hello", "hi", "hey!", "hola", "greetings", "good day", "what's up?", "how is it going?", "yo", "yooo!"],
+        "responses" : ["Hello!","How can I help you?", "Hey!", "What can I do for you?"]
+      },
+
+      { "tags" : "help",
+        "patterns" : ["Help", "Need assistance", "query"],
+        "responses" : ["What you need assistance with?", "With what you need help?", "What is your query?", "How can I help you?", "How may I assist you?"]
+      },
+
+      { "tags" : "name",
+        "patterns" : ["What is your name?", "What should I call u?", "Name?", "Who are you?", "u", "about you", "you", "bot", "Chatbot", " "],
+        "responses" : ["Hi! My Name is Friday \n Your Assistant for all Queries :) \n How can I help you?", "Hello! I'm Friday \n Your personal assistant for all your needs :) \n How may I assist you?"]
+      },
+
+      { "tags" : "stock",
+        "patterns" : ["What is my stock investement?", "My stocks", "Stocks", "stock list", "stock investement"],
+        "responses" : ["Your Stock investements are: \n"]
+      },
+
+      { "tags" : "crypto",
+        "patterns" : ["What is my cryptograpgy investements?", "My crypto investements?", "My cryptograpgy", "Crypto", "crypto lists"],
+        "responses" : ["Your Crypto investements are: \n"]
+      },
+
+      { "tags" : "about",
+        "patterns" : ["about PFT", "Personal finance tracker", "about us", "what is PFT?", "app", "company", "what is this app?", "Aim of this company", "Goal of this app?", "Goal", "Aim", "finance tracker"],
+        "responses" : ["We are here to help you track and manage your personal expenses and provide you with saving tips and investement plans. \nWe will help you to save your money and give better investement plans."]
+      },
+
+      { "tags" : "time",
+        "patterns" : ["working hours?", "Available", "Availability?", "time", "shifts", "working time?"],
+        "responses" : ["We are always here to help you, 24/7 :)"]
+      },
+
+      { "tags" : "purchase",
+        "patterns" : ["My last purchase?", "last spent", "latest transaction", "Transactions?", "latest purchase", "money spent", "recent spent", "recent", "purchase", "history", "past", "cash spent on"],
+        "responses" : ["Your recent transaction was: ", "Your latest purchase was: "]
+      },
+
+      { "tags" : "goodbye",
+        "patterns" : ["goodbye", "thank you", "see ya", "Have a good day", "I am Leaving", "I'm leaving", "see you later", "bye", "quit", "q", "exit", "end"],
+        "responses" : ["Goodbye!", "See you soon!!", "Talk to you later :)", "Have a nice day:) Bye!", "Enjoy you day :) Bye!", "Have a pleasent day :) Bye!"]
+      },
+
+      { "tags" : "bad",
+        "patterns" : ["Fuck off", "Fuck you", "Fuck", "Porn", "Sex", "mc", "bc", "randi", "bsdk", "maderchod", "betichod", "gm", "gand", "lauda", "Laude", "mu me lele", "chutiya", "chut", "boobs", "pussy", "tits", "tiddies", "F", "mf", "motherfucker", "bitch", "asshole", "abe saale", "dick", "kuthe", "jhatt"],
+        "responses" : ["Stop using bad words, be kind to others. \nListen GM \nThank you have a Good day :)"]
+      }
+
+    ]
+}
